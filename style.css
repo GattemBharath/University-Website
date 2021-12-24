@@ -538,7 +538,7 @@ footer .copyright .pro-links i:hover {
   }
   #features .fea-base {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 0.5fr));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 0.8fr));
     grid-gap: 0.5rem;
     margin-top: 50px;
   }
