@@ -1,1 +1,1 @@
-# Teachere University-Website
+# Teachere University Website
