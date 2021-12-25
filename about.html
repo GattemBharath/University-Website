@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/aboutus.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <img src="./images/logo.jpg" alt="logo" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn" src="./images/menu.png" alt="" />
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="about-home">
+      <h2>About Teachere</h2>
+    </section>
+    <section id="about-container">
+      <div class="about-img">
+        <img src="./images/a.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>
+          Welcome to Teachere, Enhance your skils with best Online Courses
+        </h2>
+        <p>
+          You can start and finish one of these popular courses in under a day -
+          for free! Check out the list below. Take the course for free
+        </p>
+        <div class="about-fe">
+          <img src="./images/fe1.png" alt="" />
+          <div class="fe-text">
+            <h5>400+ Courses</h5>
+            <p>
+              You can start and finish one of these popular courses in our site
+            </p>
+          </div>
+        </div>
+        <div class="about-fe">
+          <img src="./images/fe2.png" alt="" />
+          <div class="fe-text">
+            <h5>Lifetime Access</h5>
+            <p>
+              You can start and finish one of these popular courses in our site
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+
+    <section id="features">
+      <h1>Awesome Features</h1>
+      <p>Replenish man have thing gathering lights yielding shall you</p>
+      <div class="fea-base">
+        <div class="fea-box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Scholarship Facility</h3>
+          <p>
+            One make creepath, man bearing their firmamant won't great heaven
+          </p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-file-certificate"></i>
+          <h3>Blockchain Online Course</h3>
+          <p>
+            One make creepath, man bearing their firmamant won't great heaven
+          </p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-award"></i>
+          <h3>Global Certification</h3>
+          <p>
+            One make creepath, man bearing their firmamant won't great heaven
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Trusted By -->
+    <section id="trust">
+      <h1>Trusted By</h1>
+      <p>We are trusted by many great institutions in the world</p>
+      <div class="trust-img">
+        <img src="./images/trust (1).png" alt="" />
+        <img src="./images/trust (2).png" alt="" />
+        <img src="./images/trust (3).png" alt="" />
+        <img src="./images/trust (4).png" alt="" />
+        <img src="./images/trust (5).png" alt="" />
+        <img src="./images/trust (6).png" alt="" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Brans Assests</li>
+        <li>Investor Relations</li>
+        <li>Terms od Service</li>
+        <li>Jobs</li>
+      </div>
+      <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Giudesn</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers</p>
+        <div class="subscribe">
+          <input type="email" placeholder="Your Email Address" name="" id="" />
+          <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright ©2021 All rights reserved</p>
+
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+      <p class="last">Made with ❤️ in INDIA</p>
+    </footer>
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
