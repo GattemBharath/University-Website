@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/university.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <img src="./images/logo.jpg" alt="logo" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="blog.html">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn" src="./images/menu.png" alt="" />
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="about-home">
+      <h2>Our Blog</h2>
+    </section>
+
+    <!--Blog Container  -->
+    <section id="blog-container">
+      <div class="blogs">
+        <div class="post">
+          <img src="./images/b1.jpg" alt="" />
+          <h3>Learn Web Development the easiest way</h3>
+          <p>
+            Every Web Developer must have a basic understanding of HTML, CSS,
+            and JavaScript. Responsive Web Design is used in all types of modern
+            web development. ECMAScript 5 (JavaScript 5) is supported in all
+            modern browsers.
+          </p>
+          <a href="./post.html">Read More</a>
+        </div>
+        <div class="post">
+          <img src="./images/b2.jpg" alt="" />
+          <h3>Learn App Development the easiest way</h3>
+          <p>
+            Every App Developer must have a basic understanding of Android or
+            IOS. React Native, Swift are used in many areas.
+          </p>
+          <a href="./post.html">Read More</a>
+        </div>
+        <div class="post">
+          <img src="./images/b3.jpg" alt="" />
+          <h3>Learn Python the easiest way</h3>
+          <p>
+            Python is a powerful general-purpose programming language. It is
+            used in web development, data science, creating software prototypes,
+            and so on. Fortunately for beginners, Python has simple easy-to-use
+            syntax.
+          </p>
+          <a href="./post.html">Read More</a>
+        </div>
+        <div class="post">
+          <img src="./images/b4.png" alt="" />
+          <h3>Learn React JS the easiest way</h3>
+          <p>
+            ReactJS offers graceful solutions to some of front-end programming’s
+            most persistent issues, allowing you to build dynamic and
+            interactive web apps with ease. It’s fast, scalable, flexible,
+            powerful, and has a robust developer community that’s rapidly
+            growing.
+          </p>
+          <a href="./post.html">Read More</a>
+        </div>
+      </div>
+      <div class="category">
+        <h2>Categories</h2>
+        <hr />
+        <a href="#">Frontend Web Development</a>
+        <hr />
+        <a href="#">Web Design</a>
+        <hr />
+        <a href="#">App Development</a>
+        <hr />
+        <a href="#">Backend Web Development</a>
+        <hr />
+        <a href="#">JavaScript</a>
+        <hr />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Brans Assests</li>
+        <li>Investor Relations</li>
+        <li>Terms od Service</li>
+        <li>Jobs</li>
+      </div>
+      <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Giudesn</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers</p>
+        <div class="subscribe">
+          <input type="email" placeholder="Your Email Address" name="" id="" />
+          <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright ©2021 All rights reserved</p>
+
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+      <p class="last">Made with ❤️ in INDIA</p>
+    </footer>
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
