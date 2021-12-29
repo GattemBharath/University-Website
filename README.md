@@ -1,2 +1,2 @@
 # Teachere University Website
-https://teachere.netlify.app/
+https://teachere.netlify.app
